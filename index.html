@@ -7,30 +7,101 @@
   <link rel="stylesheet" href="file.css">
 </head>
 <body>
+  <H1>TABLES</H1>
+  <table border="1.5">
+    <caption>School Timetable</caption>
+    <thead>
+      <tr>
+        <th>DAY</th>
+        <th>SUBJECT</th>
+        <th>TIME</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>MON</td>
+          <td>Maths</td>
+          <td>6:00-7:00am <br> 7:00-9:00pm</td>
+
+        </tr>
+        <tr>
+          <td>TUE</td>
+          <td>English</td>
+          <td>8:00am-9:00</td>
+        </tr>
+        <tr>
+          <td>WED</td>
+          <td>French</td>
+          <td>7:30-8:30</td>
+        </tr>
+        <tr>
+          <td>THUR</td>
+          <td>SST</td>
+          <td>6:30-7:30</td>
+        </tr>
+        <tr>
+          <td>FRI</td>
+          <td>Kiswahili</td>
+          <td>8:30-9:30am <br> 5:00-6:30pm</td>
+        </tr>
+      </tbody>
+    </thead>
+    
+  </table>
+  <br>
+  <br>
+  <h1>IMAGES</h1>
+  <img src="spiderman.jpg" alt="spiderman">  <p>This is spiderman and the actor is Peter Parker while the person is called This is spiderman and the actor is Peter Parker while the person is called Miles Morales and i love spiderman so muchThis is spiderman and the actor is Peter Parker while the person is called Miles Morales and i love spiderman so muchThis is spiderman and the actor is Peter Parker while the person is called Miles Morales and i love spiderman so muchThis is spiderman and the actor is Peter Parker while the person is called Miles Morales and i love spiderman so muchThis is spiderman and the actor is Peter Parker while the person is called Miles Morales and i love spiderman so much Miles Morales and i love spiderman so much</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br><br>
+<h1>LISTS</h1>
+
+  <h2>shopping</h2>
+  <ol type="I">
+    <li>shoes</li>
+    <li>curtains</li>
+    <li>dolls</li>
+    <li>drinks</li>
+    <br>
+    <h2>Groceries</h2>
+    <ol type="a">
+      <li>leafy greens</li>
+      <li>onions</li>
+      <li>tomatoes</li>
+      <li>cabbage</li>
+      <li>cheese</li>
+    </ol>
+  </ol>
+  <br>
+  <br>
+  <h1>FORM AND FORM VALIDATION</h1>
+
+
   <div class="form-container">
-
-    <h2>Login page</h2>
-  <form>
-  <label for="fname"> first name</label>
-  <input type="text" id="fname" required>
+    <h3>login</h3>
+  <form action="">
+  <label for="first name ">first name</label >
+  <input type="text" required>
   <br>
   <br>
-  <label for="sname">second name</label>
-  <input type="text" id="sname" required>
+  <label for="second name ">second name</label>
+  <input type="text" required>
   <br>
   <br>
-  <label for="password"> password</label>
-  <input type="password" id="pwd" required 
-  pattern="^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" 
-  placeholder="Password 8">
+  <label for="password" >password</label >
+  <input type="password" required maxlength="10" minlength="5" id="pwd">
   <br>
-  <br>
-<input type="submit"value="submit">
-<input type="reset"value="reset">
-
-
+  <input type="submit">
+  <input type="reset">
 </form>
 
+</div>
+<br><br>
+<label for="file">upload your CV</label>
+<input type="file">
 
 
 </body>
